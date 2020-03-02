@@ -1,5 +1,5 @@
 let mounthName = ''
-/*
+
 describe('Выпадающий список "Клиника', function() {
     it('Проверка на смену класса is_opened', function () {
         cy.visit('https://prodoctorov.ru/new/rate/doctor/12/');
@@ -58,7 +58,7 @@ describe('Поля с рейтингом (на примере "Тщательн�
                 .contains('Ужасно')
         })
 });
-*/
+
 
 describe('Дата посещения', function () {
         it('Возможность выбрать месяц (из допустимых)', function () {
@@ -92,4 +92,5 @@ describe('Дата посещения', function () {
                 .eq(6)
                 .should($el => expect($el.text().trim()).not.to.equal(mounthName));
         });
+
 });
